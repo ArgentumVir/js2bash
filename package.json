@@ -5,7 +5,7 @@
   "main": "generator.js",
   "scripts": {
     "test": "ava --verbose tests/test.js",
-    "start": "node generator.js"
+    "start": "node generator.js --input testScript.js --overwrite true"
   },
   "author": "",
   "license": "ISC",
